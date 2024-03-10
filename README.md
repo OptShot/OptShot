@@ -77,5 +77,11 @@ The software captures a 640x640 area at the screen center, employs AI object det
 
 ![image-20240310160908513](./assets/image-20240310160908513.png)
 
+**3. Error: DXGI_ERROR_UNSUPPORTED**
+
+This typically occurs in situations where both the CPU's integrated graphics and discrete graphics card are present. Please enable direct connection mode for the discrete graphics card.
+
+
 > [!WARNING]
 > This software is intended for academic purposes only. **Do not use it in live action.** We are not responsible if you get banned!
+
