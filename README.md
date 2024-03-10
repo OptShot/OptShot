@@ -38,6 +38,7 @@ Procedure:
 
 3）Press **F6** to execute a single "Capture- Detection - Mouse Movement" precedure.  Adjust this value until a single detection accurately aligns with the character.
 
+https://github.com/OptShot/OptShot/assets/162872822/9d1185ac-2fd3-4933-b3c8-482653994c0f
 
 
 ⏱️ **Rest Time Factor**
@@ -56,6 +57,9 @@ However, be aware that if your GPU is already exhausted by the game, the detecti
 
 1. Limit CS's maximum frame rate via console command `fps_max 60`.
 2. Lower the game's graphics quality or resolution.
+
+
+
 
 
 
