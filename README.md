@@ -1,6 +1,5 @@
 # 🎯The optimal AI Aimbot for CS2
-
-**Works on any computer,  just download and run!**
+> No tedious installation or setup steps, supports Win10/Win11 x64 platforms, supports CPU or GPU platform.
 
 🌐 **Download Page**: [https://optshot.com](https://optshot.com)
 
@@ -60,7 +59,11 @@ However, be aware that if your GPU is already exhausted by the game, the detecti
 
 
 
+## 🛑 Limitation And Development Plan
 
+**Aim Locking**
+
+In the current version, if there are multiple people in the detection area at close distances, the aiming may jump between them. Aim locking will be supported in the next version.
 
 
 ## ❔Frequently Asked Questions
@@ -83,5 +86,5 @@ This typically occurs in situations where both the CPU's integrated graphics and
 
 
 > [!WARNING]
-> This software is intended for academic purposes only. **Do not use it in live action.** We are not responsible if you get banned!
+> The software is designed exclusively for battling against bots. **Do not use it in live action.** We are not responsible if you get banned!
 
