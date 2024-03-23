@@ -1,36 +1,30 @@
-# 🎯The optimal AI Aimbot for CS2
-
 <img src="./assets/logo2.jpg"  style="zoom:67%;" />
 
+# 🎯The optimal AI Aimbot for CS2
 
+🛠️ **Download:** [Dropbox](https://www.dropbox.com/scl/fo/j5t8m00dz67i6fsbrh6v9/h?rlkey=n0ut66dbdy4xq88372eovbu5e&dl=0)
 
-> No tedious installation or setup steps, supports Win10/Win11 x64 platforms, supports CPU or GPU platform.
-
-🌐 **Download:** [Dropbox](https://www.dropbox.com/scl/fo/j5t8m00dz67i6fsbrh6v9/h?rlkey=n0ut66dbdy4xq88372eovbu5e&dl=0)
-
-🌐 **Homepage:** https://optshot.com
-
+🌐 **Homepage:** [optshot.com](https://optshot.com)
 
 
 
+## ✨ How is Optshot better than similar AI-Based tools?
 
-## How is Optshot better than similar AI-Based tools?
+🌞 **Simpleness**：Simplicity and intuitiveness are the design philosophy of OptShot. No cumbersome installation, no obscure settings; most configuration parameters are automatically set to optimal values. You don't need to be an expert to use it.
 
-**Simpleness**：Simplicity and intuitiveness are the design philosophy of OptShot. No cumbersome installation, no obscure settings; most configuration parameters are automatically set to optimal values. You don't need to be an expert to use it.
+⭐ **Extensive Support**: Compatible with Win10/Win11 x64 platforms, supporting both CPU and GPU configurations.
 
-**Extensive Support**: Compatible with Win10/Win11 x64 platforms, supporting both CPU and GPU configurations.
+🔥 **High Performance**: Developed using native code (instead of Python), featuring screen capture based on DXGI, agent detection using YOLOv8, and well-designed target tracking, resulting in exceptional performance.
 
-**High Performance**: Developed using native code (instead of Python), featuring screen capture based on DXGI, agent detection using YOLOv8, and well-designed target tracking, resulting in exceptional performance.
-
-**High Security:** Non-invasive to the game program itself, employing a biomimetic mouse movement strategy, with no risk of detection.
-
+🎖️ **High Security:** Non-invasive to the game program itself, employing a biomimetic mouse movement strategy, with no risk of detection.
 
 
-## 🚀  Basic Usage
+
+## ▶️  Basic Usage
 
 Launch the game in **Fullscreen Windowed** mode:
 
-![image-20240310150844554](./assets/image-20240310150844554.png)
+<img src="./assets/image-20240310150844554.png" alt="image-20240310150844554" style="zoom:33%;" />
 
 Press the "Start" button (or use hotkey "**F5**") .
 
@@ -38,7 +32,7 @@ Press the "Start" button (or use hotkey "**F5**") .
 
 ## ⚙️ Advanced Setting
 
-<img src="./assets/image-20240310160626406.png" alt="image-20240310160626406" style="zoom:67%;" />
+<img src="./assets/image-20240310160626406.png" alt="image-20240310160626406" style="zoom:40%;" />
 
 ### 🖱️ Mouse Calibration
 
@@ -95,20 +89,20 @@ However, be aware that if your GPU is already exhausted by the game, the detecti
 
 ## ❔Frequently Asked Questions
 
-**1. Does it support games other than CS2?**
-
-In theory, yes, but the software is not optimized for these games.
-
-
-
-**2. How it works?**
+🍎 **How it works?**
 
 The software captures a 640x640 area at the screen center, employs AI object detection (Yolo-V8) to locate characters within it, and then controls the mouse for aiming.
 
-![image-20240310160908513](./assets/image-20240310160908513.png)
+<img src="./assets/image-20240310160908513.png" alt="image-20240310160908513" style="zoom: 33%;" />
 
 
 
-**3. Error: DXGI_ERROR_UNSUPPORTED**
+🍄 **Error: DXGI_ERROR_UNSUPPORTED**
 
-This typically occurs in situations where both the CPU's integrated graphics and discrete graphics card are present. Please enable direct connection mode for the discrete graphics card.
+This typically occurs in situations where both the CPU's integrated graphics and discrete graphics card are present. Please enable `direct connection mode` for the discrete graphics card.
+
+
+
+🍇 **Does it support games other than CS2?**
+
+In theory, yes, but OptShot is not optimized for these games.
