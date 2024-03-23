@@ -10,7 +10,7 @@
 
 ## ✨ How is Optshot better than similar AI-Based tools?
 
-🌞 **Simpleness:**Simplicity and intuitiveness are the design philosophy of OptShot. No cumbersome installation, no obscure settings; most configuration parameters are automatically set to optimal values. You don't need to be an expert to use it.
+🌞 **Simpleness:** Simplicity is the design philosophy of OptShot. No cumbersome installation, no obscure settings; most configuration parameters are automatically set to optimal values. You don't need to be an expert to use it.
 
 ⭐ **Compatibility:** Compatible with Win10/Win11 x64 platforms, supporting both CPU and GPU configurations.
 
