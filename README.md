@@ -4,19 +4,19 @@
 
 🛠️ **Download:** [Dropbox](https://www.dropbox.com/scl/fo/j5t8m00dz67i6fsbrh6v9/h?rlkey=n0ut66dbdy4xq88372eovbu5e&dl=0)
 
-🌐 **Homepage:** [optshot.com](https://optshot.com)
+🌐 **Homepage:** [OptShot.com](https://optshot.com)
 
 
 
 ## ✨ How is Optshot better than similar AI-Based tools?
 
-🌞 **Simpleness**：Simplicity and intuitiveness are the design philosophy of OptShot. No cumbersome installation, no obscure settings; most configuration parameters are automatically set to optimal values. You don't need to be an expert to use it.
+🌞 **Simpleness:**Simplicity and intuitiveness are the design philosophy of OptShot. No cumbersome installation, no obscure settings; most configuration parameters are automatically set to optimal values. You don't need to be an expert to use it.
 
-⭐ **Extensive Support**: Compatible with Win10/Win11 x64 platforms, supporting both CPU and GPU configurations.
+⭐ **Compatibility:** Compatible with Win10/Win11 x64 platforms, supporting both CPU and GPU configurations.
 
-🔥 **High Performance**: Developed using native code (instead of Python), featuring screen capture based on DXGI, agent detection using YOLOv8, and well-designed target tracking, resulting in exceptional performance.
+🔥 **Efficiency:** Developed using native code (instead of Python), featuring screen capture based on DXGI, agent detection using YOLOv8, and well-designed target tracking, resulting in exceptional performance.
 
-🎖️ **High Security:** Non-invasive to the game program itself, employing a biomimetic mouse movement strategy, with no risk of detection.
+🎖️ **Safety:** Non-invasive to the game program itself, employing a biomimetic mouse movement strategy, with no risk of detection.
 
 
 
