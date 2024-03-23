@@ -1,19 +1,38 @@
 # 🎯The optimal AI Aimbot for CS2
+
+<img src="./assets/logo2.jpg"  style="zoom:67%;" />
+
+
+
 > No tedious installation or setup steps, supports Win10/Win11 x64 platforms, supports CPU or GPU platform.
 
-🌐 **Download Page**: [https://optshot.com](https://optshot.com)
+🌐 **Download:** [Dropbox](https://www.dropbox.com/scl/fo/j5t8m00dz67i6fsbrh6v9/h?rlkey=n0ut66dbdy4xq88372eovbu5e&dl=0)
+
+🌐 **Homepage:** https://optshot.com
+
+
+
+
+
+## How is Optshot better than similar AI-Based tools?
+
+**Simpleness**：Simplicity and intuitiveness are the design philosophy of OptShot. No cumbersome installation, no obscure settings; most configuration parameters are automatically set to optimal values. You don't need to be an expert to use it.
+
+**Extensive Support**: Compatible with Win10/Win11 x64 platforms, supporting both CPU and GPU configurations.
+
+**High Performance**: Developed using native code (instead of Python), featuring screen capture based on DXGI, agent detection using YOLOv8, and well-designed target tracking, resulting in exceptional performance.
+
+**High Security:** Non-invasive to the game program itself, employing a biomimetic mouse movement strategy, with no risk of detection.
 
 
 
 ## 🚀  Basic Usage
 
-1. Launch the game in either **Fullscreen Windowed** mode or **Windowed** mode:
+Launch the game in **Fullscreen Windowed** mode:
 
-   > If you choose 'Windowed' mode, please ensure the window remains centered on your screen.
+![image-20240310150844554](./assets/image-20240310150844554.png)
 
-   ![image-20240310150844554](./assets/image-20240310150844554.png)
-
-2. Press the "Start" button or use the hotkey "**F5**".
+Press the "Start" button (or use hotkey "**F5**") .
 
 
 
@@ -25,26 +44,38 @@
 
 🏃 **Movement Factor**
 
-> The higher this value, the greater the distance the mouse will move.
-
-Due to differences in mouse DPI, game resolution, and in-game Mouse Sensitivity settings, it's necessary to calibrate the mouse movement range to ensure accurate targeting.
+Due to differences in mouse DPI, game resolution, and in-game Mouse Sensitivity settings, it's suggested to calibrate the mouse movement range to ensure accurate targeting.
 
 Procedure: 
 
-1）Open a practice map and keep the bot stationary. 
+1. Open a bot map and keep the bot stationary using the following console commands ([video tutorial](https://www.youtube.com/watch?v=aQGWp-XiwNM&ab_channel=FunVector)):  
 
-2）Slightly move the mouse pointer away from the bot.
+```
+sv_cheats 1
+bot_stop 1
+```
 
-3）Press **F6** to execute a single "Capture- Detection - Mouse Movement" precedure.  Adjust this value until a single detection accurately aligns with the character.
+
+
+2. Slightly move the mouse pointer away from the bot. Press **F6** to execute a single "Capture-> Detection -> Mouse Movement" precedure. 
+
+   Adjust this value until a single detection roughly aligns with the character. 
+
+   The higher this value, the greater the distance the mouse will move. 
+
+   Too large a value will cause the mouse to vibrate.
 
 https://github.com/OptShot/OptShot/assets/162872822/9d1185ac-2fd3-4933-b3c8-482653994c0f
 
 
+
 ⏱️ **Rest Time Factor**
 
->  Increasing this factor extends the waiting time.
+After mouse movement, the screen doesn't immediately change. Therefore, it's necessary to wait for a period before continuing detection. 
 
-After mouse movement, the screen doesn't immediately change. Therefore, it's necessary to wait for a period before continuing detection; otherwise, premature detection might lead to incorrect mouse movement and significant drift. Typically, a value of 0.3 is appropriate.
+Typically, a value of 0.3 is appropriate. Increasing this factor extends the waiting time. Too small a value will cause the mouse to vibrate.
+
+
 
 
 
@@ -59,11 +90,7 @@ However, be aware that if your GPU is already exhausted by the game, the detecti
 
 
 
-## 🛑 Limitation And Development Plan
 
-**Aim Locking**
-
-In the current version, if there are multiple people in the detection area at close distances, the aiming may jump between them. Aim locking will be supported in the next version.
 
 
 ## ❔Frequently Asked Questions
@@ -80,11 +107,8 @@ The software captures a 640x640 area at the screen center, employs AI object det
 
 ![image-20240310160908513](./assets/image-20240310160908513.png)
 
+
+
 **3. Error: DXGI_ERROR_UNSUPPORTED**
 
 This typically occurs in situations where both the CPU's integrated graphics and discrete graphics card are present. Please enable direct connection mode for the discrete graphics card.
-
-
-> [!WARNING]
-> The software is designed exclusively for battling against bots. **Do not use it in live action.** We are not responsible if you get banned!
-
